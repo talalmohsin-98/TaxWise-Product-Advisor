@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f0f4f8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+a { text-decoration: none; cursor: pointer !important; }
+button { cursor: pointer !important; }
+div, span, p { cursor: default; }
+* { -webkit-tap-highlight-color: transparent; }
+
+/* Navbar responsive */
+.nav-desktop { display: flex; }
+.nav-burger { display: none; }
+.nav-mobile { display: none; }
+
+@media (max-width: 768px) {
+  .nav-desktop { display: none !important; }
+  .nav-burger { display: flex !important; }
+  .nav-mobile { display: flex !important; }
+}
