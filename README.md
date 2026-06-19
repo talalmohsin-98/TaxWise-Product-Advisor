@@ -1,6 +1,7 @@
 <div align="center">
 
 # TaxWise Product Advisor
+# Developed by: Muhammad Talal Mohsin
 
 ### AI-Assisted Tax Software Recommendation Platform
 
@@ -11,7 +12,7 @@
 ---
 
 ## Live Demo
-[Live Demo](https://tax-wise-product-advisor-52yqr3tf8-talalmohsin-98s-projects.vercel.app)
+[TaxWise QASPL](https://tax-wise-product-advisor.vercel.app/)
 
 ## Screenshots
 
