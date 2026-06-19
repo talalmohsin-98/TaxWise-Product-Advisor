@@ -28,7 +28,7 @@ function Compare() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://taxwise-product-advisor-production.up.railway.app/api/products")
       .then((r) => r.json())
       .then((data) => { setProducts(data); setLoading(false); });
   }, []);

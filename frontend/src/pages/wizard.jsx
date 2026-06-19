@@ -64,7 +64,7 @@ function Wizard() {
     setLoading(true);
     setError("");
     try {
-      const res = await fetch("http://localhost:5000/api/recommend", {
+      const res = await fetch("https://taxwise-product-advisor-production.up.railway.app/api/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(answers),

@@ -36,7 +36,7 @@ function Assistant() {
     setMessages((prev) => [...prev, { role: "user", text: q }]);
 
     try {
-      const res = await fetch("http://localhost:5000/api/assistant", {
+      const res = await fetch("https://taxwise-product-advisor-production.up.railway.app/api/assistant", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: q }),
