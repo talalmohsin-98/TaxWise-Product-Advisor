@@ -4,17 +4,14 @@
 
 ### AI-Assisted Tax Software Recommendation Platform
 
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite)](https://vitejs.dev)
-[![Express](https://img.shields.io/badge/Express.js-4-000000?style=flat-square&logo=express)](https://expressjs.com)
-[![Node](https://img.shields.io/badge/Node.js-24-339933?style=flat-square&logo=node.js)](https://nodejs.org)
-[![Groq](https://img.shields.io/badge/Groq-llama3--8b-F55036?style=flat-square)](https://groq.com)
-
-**QASPL IT Officer Take-Home Assignment**
+**QASPL IT Officer Task**
 
 </div>
 
 ---
+
+## Live Demo
+[Live Demo](https://tax-wise-product-advisor-52yqr3tf8-talalmohsin-98s-projects.vercel.app)
 
 ## Screenshots
 
